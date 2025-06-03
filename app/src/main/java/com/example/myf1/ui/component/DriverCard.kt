@@ -41,7 +41,8 @@ fun DriverCard(driver: Driver) {
                 painter = rememberAsyncImagePainter(driver.headshot_url),
                 contentDescription = driver.full_name,
                 modifier = Modifier.size(120.dp)
-                    .padding(8.dp)
+                    .padding(8.dp),
+                
             )
 
             Spacer(modifier = Modifier.height(8.dp))

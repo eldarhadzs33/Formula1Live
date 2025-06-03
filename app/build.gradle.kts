@@ -57,8 +57,15 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation ("androidx.navigation:navigation-compose:2.7.7")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0")
-    implementation("com.squareup.retrofit2:retrofit:3.0.0")
     implementation("com.squareup.retrofit2:converter-gson:3.0.0")
     implementation ("androidx.recyclerview:recyclerview:1.3.1")
     implementation ("io.coil-kt:coil-compose:2.5.0")
+    implementation("com.squareup.retrofit2:retrofit:3.0.0")
+    implementation ("com.patrykandpatrick.vico:compose-m3:2.1.3")
+    implementation ("com.patrykandpatrick.vico:core:2.1.3")
+    implementation ("com.patrykandpatrick.vico:compose:2.1.3")
+    implementation ("com.patrykandpatrick.vico:compose-m2:2.1.3")
+    implementation ("com.patrykandpatrick.vico:views:2.1.3")
+    implementation ("com.patrykandpatrick.vico:multiplatform:2.1.3")
+
 }
